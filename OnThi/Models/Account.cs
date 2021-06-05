@@ -17,7 +17,7 @@ namespace OnThi.Models
         public string Username { get; set; }
         //password k được để trống 
         [Required(ErrorMessage = "Password is required.")]
-        //Định nghĩa DataType
+        //Định nghĩa DataType là pasword
         [DataType(DataType.Password)]
         public string Password { get; set; }
     }
