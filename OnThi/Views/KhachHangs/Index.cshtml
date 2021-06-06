@@ -27,7 +27,7 @@
             @Html.DisplayFor(modelItem => item.TenKH)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.DiaChi)
+            @Html.Raw(item.DiaChi)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.IDKhachHang }) |
